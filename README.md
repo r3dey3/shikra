@@ -1,3 +1,47 @@
+# Shikra Docs and programming
+
+This started as a fork of the shikra programming repo, and then I added 
+the documentation I was able to find on archive.org. The product page and
+blog describing the usage is no longer live, so I created this repo.
+
+Extra Pinout Information; the shikra is essentially a FT232H breakout board
+* pins 1-7 are ADBUS0-7
+* pins 8-16 are ACBUS0-7 (pin 14 has a resister in series between ACBUS5 and pin)
+* ping 17 is a 500mA fused controllable 5V supply with ACBUS8 (I think)
+* ACBUS9 connected to is a LED (low to turn on)
+
+
+
+Adafruit has some good documentation about their FT232H breakout that can be used
+- https://learn.adafruit.com/adafruit-ft232h-breakout
+
+## Common UART Pins
+* 1 - TX
+* 2 - RX
+* 3 - RTS
+* 4 - CTS
+* 5 - DTR
+* 6 - DSR
+* 7 - DCD
+* 18 - GND
+
+## JTAG Pins
+* 1 - TCK
+* 2 - TDI
+* 3 - TDO
+* 4 - TMS
+* 18 - GND
+
+## SPI Pins
+* 1 - SCK
+* 2 - SDI
+* 3 - SDO
+* 4 - CS
+* 18 - GND
+
+---
+# Original Readme
+
 # Shikra EEPROM Programming
 
 ## Requirements
